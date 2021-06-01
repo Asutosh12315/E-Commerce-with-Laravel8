@@ -33,13 +33,5 @@ padding: 100px;
 
 
 @include('Footer')
-<script>
-
-$(".btn").on("click",function(){
-
-    alert("All OKk!!");
-});
-
-</script>
 </body>
 </html>

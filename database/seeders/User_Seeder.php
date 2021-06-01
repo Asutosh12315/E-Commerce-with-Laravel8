@@ -22,18 +22,18 @@ class User_Seeder extends Seeder
 
         //     'name'=>'Asutosh Roy',
 
-        //     'email'=>'royasutosh7@gmailcom',
+        //     'email'=>'royasutosh7@gmail.com',
 
-        //     'password'=> Hash::make('123345')
+        //     'password'=> Hash::make('12345')
         // ],
         
         [
 
             'name'=>'sam',
 
-            'email'=>'sam@testcom',
+            'email'=>'sam@test.com',
 
-            'password'=> Hash::make('123345')
+            'password'=> Hash::make('12345')
         ],
     
     

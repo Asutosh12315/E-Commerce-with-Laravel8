@@ -69,6 +69,13 @@ padding-top: 100px;
  width:25%;
 
 }
+.details-img{
+
+    
+    
+    
+    /* height: 200px; */
+}
 </style>
 </head>
 <body>

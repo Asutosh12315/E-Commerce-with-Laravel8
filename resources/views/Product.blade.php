@@ -17,11 +17,17 @@
 
     @foreach($products as $item)
     <div class="item {{$item['id']==1? 'active':''}}">
+
+      <a href="/details/{{$item['id']}}">      
+      
       <img src="{{asset('asset\images')}}\{{$item['gallery']}}" alt="Los Angeles" > 
       <div class="carousel-caption">
       <h3>{{$item['name']}}</h3>
       <p>{{$item['description']}}</p>
-      </div>     
+      </div>      
+      
+      </a>
+
     </div>
     @endforeach
 
@@ -46,11 +52,15 @@
 
 @foreach($products as $item)
 <div class="trending-item">
+  <a href="/details/{{$item['id']}}">
+  
   <img class="trending-img" src="{{asset('asset\images')}}\{{$item['gallery']}}"style="height: 200px;"> 
   <div class="">
   <h3>{{$item['name']}}</h3>
  
-  </div>     
+  </div> 
+  
+  </a>    
 </div>
 @endforeach
 

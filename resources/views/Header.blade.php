@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-default fixed-top">
+<nav class="navbar navbar-default mynav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -28,6 +28,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
+      
         <li><a href="#">Add To Cart</a></li>
       
       </ul>

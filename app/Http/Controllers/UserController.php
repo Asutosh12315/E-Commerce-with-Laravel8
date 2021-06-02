@@ -30,7 +30,7 @@ class UserController extends Controller
 
         $request->session()->put('user',$user);
         
-        return redirect ('/product_page');
+        return redirect ('/');
     }
 
 

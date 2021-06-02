@@ -21,15 +21,15 @@
 
        
       </ul>
-      <form class="navbar-form navbar-left">
+      <form class="navbar-form navbar-left" action="/search" method="GET">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" name="query" class="form-control search-box" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
       
-        <li><a href="#">Add To Cart</a></li>
+        <li><a href="#">Cart Item(0)</a></li>
       
       </ul>
     </div><!-- /.navbar-collapse -->

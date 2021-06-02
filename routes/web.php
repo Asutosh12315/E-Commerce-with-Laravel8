@@ -10,3 +10,7 @@ Route::get('/login',[App\Http\Controllers\UserController::class,'viewLogin']);
 Route::post('register',[App\Http\Controllers\UserController::class,'login']);
 
 Route::get('/details/{id}',[App\Http\Controllers\ProductController::class,'details']);
+
+Route::get('/search',[App\Http\Controllers\ProductController::class,'search']);
+
+Route::post('/add_to_cart',[App\Http\Controllers\ProductController::class,'addToCart']);

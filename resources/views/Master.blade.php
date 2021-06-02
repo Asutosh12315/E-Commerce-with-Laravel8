@@ -76,6 +76,11 @@ padding-top: 100px;
     
     /* height: 200px; */
 }
+
+.search-box{
+
+    width: 500px !important;
+}
 </style>
 </head>
 <body>

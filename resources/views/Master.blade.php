@@ -81,6 +81,12 @@ padding-top: 100px;
 
     width: 500px !important;
 }
+.cart-list-divider{
+
+    border-bottom:1px solid #ccc;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
 </style>
 </head>
 <body>

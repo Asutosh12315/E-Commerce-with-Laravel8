@@ -20,3 +20,9 @@ Route::post('/add_to_cart',[App\Http\Controllers\ProductController::class,'addTo
 Route::get('/cartlist',[App\Http\Controllers\ProductController::class,'cartList']);
 
 Route::get('/removecart/{id}',[App\Http\Controllers\ProductController::class,'removeCart']);
+
+Route::get('/ordernow',[App\Http\Controllers\ProductController::class,'orderNow']);
+
+Route::post('/orderplace',[App\Http\Controllers\ProductController::class,'orderPlace']);
+
+Route::get('/myorder',[App\Http\Controllers\ProductController::class,'myOrder']);
